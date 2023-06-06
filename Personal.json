@@ -1,0 +1,164 @@
+{
+    "__class__": "listaPersonal",
+    "personal": [
+        {
+            "__class__": "Docente",
+            "__atributos__": {
+                "cuil": "11111111",
+                "apellido": "García",
+                "nombre": "Juan",
+                "sueldoBasico": 25000,
+                "antiguedad": 5,
+                "carrera": "Física",
+                "cargo": "Profesor",
+                "catedra": "Mecánica Cuántica"
+            }
+        },
+        {
+            "__class__": "Docente",
+            "__atributos__": {
+                "cuil": "22222222",
+                "apellido": "López",
+                "nombre": "María",
+                "sueldoBasico": 30000,
+                "antiguedad": 8,
+                "carrera": "Matemáticas",
+                "cargo": "Profesor",
+                "catedra": "Álgebra Lineal"
+            }
+        },
+        {
+            "__class__": "Docente",
+            "__atributos__": {
+                "cuil": "33333333",
+                "apellido": "Martínez",
+                "nombre": "Pedro",
+                "sueldoBasico": 28000,
+                "antiguedad": 3,
+                "carrera": "Informática",
+                "cargo": "Profesor",
+                "catedra": "Programación Avanzada"
+            }
+        },
+        {
+            "__class__": "Investigador",
+            "__atributos__": {
+                "cuil": "44444444",
+                "apellido": "Rodríguez",
+                "nombre": "Laura",
+                "sueldoBasico": 35000,
+                "antiguedad": 6,
+                "areaInvest": "Biología",
+                "tipoInvest": "Experimental"
+            }
+        },
+        {
+            "__class__": "Investigador",
+            "__atributos__": {
+                "cuil": "55555555",
+                "apellido": "Gómez",
+                "nombre": "Carlos",
+                "sueldoBasico": 40000,
+                "antiguedad": 9,
+                "areaInvest": "Química",
+                "tipoInvest": "Teórica"
+            }
+        },
+        {
+            "__class__": "Investigador",
+            "__atributos__": {
+                "cuil": "66666666",
+                "apellido": "Fernández",
+                "nombre": "Ana",
+                "sueldoBasico": 38000,
+                "antiguedad": 4,
+                "areaInvest": "Física",
+                "tipoInvest": "Computacional"
+            }
+        },
+        {
+            "__class__": "deApoyo",
+            "__atributos__": {
+                "cuil": "77777777",
+                "apellido": "Díaz",
+                "nombre": "Luis",
+                "sueldoBasico": 20000,
+                "antiguedad": 2,
+                "categoria": "Administrativo"
+            }
+        },
+        {
+            "__class__": "deApoyo",
+            "__atributos__": {
+                "cuil": "88888888",
+                "apellido": "Pérez",
+                "nombre": "Silvia",
+                "sueldoBasico": 22000,
+                "antiguedad": 7,
+                "categoria": "Técnico"
+            }
+        },
+        {
+            "__class__": "deApoyo",
+            "__atributos__": {
+                "cuil": "99999999",
+                "apellido": "González",
+                "nombre": "Andrés",
+                "sueldoBasico": 21000,
+                "antiguedad": 4,
+                "categoria": "Administrativo"
+            }
+        },
+        {
+            "__class__": "docenteInvestigador",
+            "__atributos__": {
+                "cuil": "12345678",
+                "apellido": "López",
+                "nombre": "Miguel",
+                "sueldoBasico": 40000,
+                "antiguedad": 6,
+                "carrera": "Economía",
+                "cargo": "Profesor",
+                "catedra": "Microeconomía",
+                "areaInvest": "Economía",
+                "tipoInvest": "Aplicada",
+                "cat": "Categoría 1",
+                "importe": 5000
+            }
+        },
+        {
+            "__class__": "docenteInvestigador",
+            "__atributos__": {
+                "cuil": "23456789",
+                "apellido": "Gómez",
+                "nombre": "Marta",
+                "sueldoBasico": 45000,
+                "antiguedad": 9,
+                "carrera": "Derecho",
+                "cargo": "Profesor",
+                "catedra": "Derecho Penal",
+                "areaInvest": "Derecho",
+                "tipoInvest": "Teórica",
+                "cat": "Categoría 2",
+                "importe": 6000
+            }
+        },
+        {
+            "__class__": "docenteInvestigador",
+            "__atributos__": {
+                "cuil": "34567890",
+                "apellido": "Fernández",
+                "nombre": "Luisa",
+                "sueldoBasico": 42000,
+                "antiguedad": 5,
+                "carrera": "Historia",
+                "cargo": "Profesor",
+                "catedra": "Historia Argentina",
+                "areaInvest": "Historia",
+                "tipoInvest": "Documental",
+                "cat": "Categoría 3",
+                "importe": 5500
+            }
+        }
+    ]
+}
