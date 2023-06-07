@@ -24,7 +24,6 @@ class ObjectEncoder(object):
                     atributos = xPersonal['__atributos__']
                     unPersonal = class_(**atributos)
                     lp.agregarElemento(unPersonal)
-            print ('Se cargó todo el personal!')
             return listaPersonal
 
     def guardarJSONArchivo(self, diccionario, archivo):

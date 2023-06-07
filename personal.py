@@ -49,7 +49,7 @@ class Personal:
                     sueldoBasico = self.__sueldoBasico,
                     antiguedad = self.__antiguedad,
                     areaInvest = self.getAreaInvestigacion(),
-                    tipoInvest = self.getTipoInvest()
+                    tipoInvest = self.getTipoInvestigacion()
                 )
             )
         else:
@@ -62,7 +62,7 @@ class Personal:
                     sueldoBasico = self.__sueldoBasico,
                     antiguedad = self.__antiguedad,
                     areaInvest = self.getAreaInvestigacion(),
-                    tipoInvest = self.getTipoInvest(),
+                    tipoInvest = self.getTipoInvestigacion(),
                     carrera = self.getCarrera(),
                     cargo = self.getCargo(),
                     catedra = self.getCatedra(),
@@ -81,7 +81,7 @@ class Personal:
     def getNombre (self):
         return self.__nombre
 
-    def getSueloBasico (self):
+    def getSueldoBasico (self):
         return self.__sueldoBasico
 
     def getAntiguedad (self):

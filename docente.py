@@ -12,7 +12,7 @@ class Docente (Personal):
         self.__catedra = catedra
 
     def __str__(self) -> str:
-        s = f'Cuil: {super().getCuil()}, apellido {super().getApellido()}, nombre: {super().getNombre()}, sueldo Basico: {super().getSueloBasico()}, antiguedad: {super().getAntiguedad()}, carrera: {self.__carrera}, cargo: {self.__cargo}, catedra: {self.__catedra}'
+        s = f'Cuil: {super().getCuil()}, apellido {super().getApellido()}, nombre: {super().getNombre()}, sueldo Basico: {super().getSueldoBasico()}, antiguedad: {super().getAntiguedad()}, carrera: {self.__carrera}, cargo: {self.__cargo}, catedra: {self.__catedra}'
         return s
 
     def getCarrera (self):

@@ -7,8 +7,9 @@ if __name__ == '__main__':
     lp = listaPersonal()
     oe = ObjectEncoder()
     bandera = False
-    os.system('cls')
     menu = Menu()
+    menu.cargaAutomatica(lp, oe)
+    os.system('cls')
     while not bandera:
         menu.mostrarMenu()
         opcion = int (input("Su opcion: "))
@@ -18,7 +19,6 @@ if __name__ == '__main__':
         os.system('pause')
         os.system('cls')
     os.system('exit')
-
 
 '''
 ULTIMA TAREA REALIZADA ANOCHE:
