@@ -69,7 +69,7 @@ class Menu:
         elif opcion == 2:
             areaInvest = input ('Ingrese area de investigacion: ')
             tipoInvest = input ('Ingrese tipo de investigacion: ')
-            xPersonal = Investigador (cuil, ape, nom, sB, ant, areaInvest, tipoInvest)
+            xPersonal = Investigador (cuil, ape, nom, sB, ant, areaInvest.lower(), tipoInvest)
         elif opcion == 3:
             categoria = input ('Ingrese categoria: ')
             xPersonal = deApoyo (cuil, ape, nom, sB, ant, categoria)
@@ -80,8 +80,8 @@ class Menu:
             areaInvest = input ('Ingrese area de investigacion: ')
             tipoInvest = input ('Ingrese tipo de investigacion: ')
             cat = input ('Ingrese categoria: ')
-            importe = input ('Ingrese importe: ')
-            xPersonal = docenteInvestigador (cuil, ape, nom, sB, ant, carrera, cargo.lower(), catedra, areaInvest, tipoInvest, cat.upper(), importe)
+            importe = int (input ('Ingrese importe: '))
+            xPersonal = docenteInvestigador (cuil, ape, nom, sB, ant, carrera, cargo.lower(), catedra, areaInvest.lower(), tipoInvest, cat.upper(), importe)
         else: 
             print ('Opcion ingresado invalido, vuelva a intentarlo')
             self.cargarPersonal()
@@ -119,7 +119,7 @@ class Menu:
         os.system('cls')
         print ('---------->Area de investigacion<----------')
         areaInvest = input ('Ingrese area de investigacion: ')
-        cont = lp.contarAreaInvest(areaInvest)
+        cont = lp.contarAreaInvest(areaInvest.lower())
         print (f'''
 Cantidad de docentes investigadores: {cont['docInv']}
 Cantidad de investigadores en el area: {cont['total']}

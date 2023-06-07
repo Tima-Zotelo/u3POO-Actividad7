@@ -18,4 +18,4 @@ class docenteInvestigador (Docente, Investigador):
         return self.__cat
 
     def getImporte (self):
-        return self.__importe
+        return int (self.__importe)
